@@ -3,9 +3,9 @@ import { useEffect, useState } from 'react'
 import SingleCard from '../components/SingleCard'
 
 const cardImages = [
-  { "src": "/cards/Fool.jpg", matched: false },
-  { "src": "/cards/Magician.jpg", matched: false },
-  { "src": "/cards/Priestess.jpg", matched: false }
+  { "src": "/cards/attendance.png", matched: false },
+  { "src": "/cards/sprint.png", matched: false },
+  { "src": "/cards/struggle.png", matched: false }
 ]
 
 export default function Home() {
