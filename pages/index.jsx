@@ -71,22 +71,22 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>タロット占い</title>
-        <meta name="description" content="タロット占い作ってみた"/>
+        <title>社会人版神経衰弱</title>
+        <meta name="description" content="日々つらい現代に生きる社会人として、少しでもポジティブに！そう！ポジティブになろう！そんな神経衰弱"/>
         <meta property="og:type" content="website" />
         <meta property='og:image' content="/tarot.png" />
-        <meta property='og:title' content="株式会社トレックス | タロット占い" />
-        <meta property='og:description' content="タロット占い作ってみた" />
+        <meta property='og:title' content="株式会社トレックス | 社会人版神経衰弱" />
+        <meta property='og:description' content="日々つらい現代に生きる社会人として、少しでもポジティブに！そう！ポジティブになろう！そんな神経衰弱" />
         <meta property='og:url' content="https://www.trex-group.com/"/>
         <meta name='twitter:site' value="@Trex2003" />
         <meta name='twitter:card' value="summary" />
         <meta name= 'twitter:image' value="/tarot.png" />
-        <meta name= 'twitter:description' value="タロット占い作ってみた" />
+        <meta name= 'twitter:description' value="日々つらい現代に生きる社会人として、少しでもポジティブに！そう！ポジティブになろう！そんな神経衰弱" />
         <link rel="icon" href="/card.ico" />
       </Head>
 
       <main>
-        <h1>タロット占い</h1>
+        <h1>社会人版神経衰弱</h1>
         <button onClick={shuffleCards}>New Game</button>
 
         <div className="card-grid">
